@@ -20,6 +20,7 @@ body {
 .Class_wrap {
 	float:left;
 	width: 120px;
+	height: 250px;
 	text-align:center;
 	border: solid #000000 1px;
 }
