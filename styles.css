@@ -17,6 +17,17 @@ body {
 	/*#min-width: 720px;*/
 	/*#max-width: 45%;*/
 }
+.Class_wrap {
+	float:left;
+	text-align:center;
+	border: solid black 1px;
+}
+.Class_icon {
+	float:left;
+}
+.Class_spec {
+	float:left;
+}
 #Links {
 	float:left;
 	width: 22%;
