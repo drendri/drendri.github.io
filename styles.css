@@ -29,7 +29,9 @@ body {
 }
 .Class_spec {
 	float:left;
-	list-style: none;
+}
+.Class_spec ul {
+	list-style:none;
 }
 #Links {
 	float:left;
