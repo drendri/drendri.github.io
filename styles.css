@@ -8,18 +8,18 @@ body {
 #Patch_Notes{
 	float:left;
 	width: 33%;
-	min-width: 720px;
-	max-width: 33%;
+	/*min-width: 720px;*/
+	/*#max-width: 33%;*/
 }
 #Class_links{
 	float:left;
 	width: 45%;
-	min-width: 720px;
-	max-width: 45%;
+	/*#min-width: 720px;*/
+	/*#max-width: 45%;*/
 }
 #Links {
 	float:left;
 	width: 22%;
-	min-width: 720px;
-	max-width:22%;
+	/*#min-width: 720px;*/
+	/*#max-width:22%;*/
 }
