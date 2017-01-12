@@ -19,15 +19,15 @@ body {
 }
 .Class_wrap {
 	float:left;
-	width: 70px;
+	width: 80px;
 	text-align:center;
-	border: solid black 1px;
+	border: solid #000000 1px;
 }
 .Class_icon {
-
+	float:left;
 }
 .Class_spec {
-
+	float:left;
 }
 #Links {
 	float:left;
