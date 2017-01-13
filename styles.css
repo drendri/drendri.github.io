@@ -2,48 +2,70 @@
 body {
 	margin: 0;
 	font-family: 'Roboto', sans-serif;
+	background: white;
 }
 #header {
 	width: 100%;
 	text-align: center;
 	font-size: 2em;
 	padding: 0 0 4px;
+	background: white;
 }
-#totallyNotNav{
+#Nav{
 	width: 100%;
-	border-top: solid black 1px;
+	height: 50px;
+	border-top: solid black 1px; 
 	border-bottom: solid black 1px;
 	text-align: center;
-	padding: 0px;
+	padding: -10px;
 	margin: 0px;
 	vertical-align: text-top;
+	background: white;
+	border-collapse: collapse;
 	
 }
-#Patch_Notes{
+.wrapper{
+	width: 60%;
+	min-width: 940px;
 	float:left;
-	width: 33%;
+	display: inline-flex;
+	flex-direction: column;
+}
+#Patch_Notes{
+	flex: 1 1 940px;
 	padding: 7px 15px 5px 10px;
-	margin: 0 10px 0 0;
+	margin: 0 0 0 0;
 	border: solid black 1px;
+	background: white;
+	border-collapse: collapse;
+}
+#Links {
+	padding: 20px;
+	background: white;
+	border: solid black 1px;
+	border-collapse: collapse;
 }
 .class_links{
 	display: flex;
 	flex-direction: row;
 	flex-wrap:wrap;
-	max-width: 678px;		/*3 boxes at 200w, 5px padding (on six sides), 7px margin and 1px border. (200*3)+(7*6)+(1*6)+(5*6) = 600 + 42 + 6 + 30 = 678 */
+	justify-content: center;
+	align-items:flex-start;
 	min-width: 220px;
-	background: #060B1C
+	margin: 0;
+	padding: 0;
+	border-collapse: collapse;
 }
 
 .class_wrap{
-	float:left;
+	flex: 1 1 210px;
+	align-self: flex-start;
 	border: solid black 1px;
-	width: 200px;
 	min-width: 150px;
+	height: 220px;
 	text-align: center;
-	margin:7px;
 	padding: 0 5px 0 5px; 
-	background: white; /* if for whatever reason the BG color doesn't load it should go to white */
+	border-collapse: collapse;
 }
 .class_specs{
 	padding-top: 5px;
@@ -55,6 +77,4 @@ body {
 .class_icon img{
 	width: 95px;
 }
-#Links {
-	float:left;
-}
+
