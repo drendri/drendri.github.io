@@ -20,7 +20,6 @@ body {
 .Class_wrap {
 	float:left;
 	width: 33%;
-	height: 100px;
 	text-align:center;
 	border: solid #000000 1px;
 }
@@ -30,7 +29,7 @@ body {
 .Class_spec {
 	float:left;
 }
-.Class_spec ul {
+.Class_spec ul li {
 	list-style:none;
 }
 #Links {
