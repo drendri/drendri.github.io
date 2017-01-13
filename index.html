@@ -9,11 +9,11 @@
   	<link rel="stylesheet" href="styles.css">
 	<script>
 	jQuery(document).ready(function($) { //noconflict wrapper
-	    var heights = $(".class_wrap").map(function() {
+	    var heights = $("same-height").map(function() {
 		return $(this).height();
 	    }).get(),
 	    maxHeight = Math.max.apply(null, heights);
-	    $(".class_wrap").height(maxHeight);
+	    $(".same-height").height(maxHeight);
 	});
 	</script>
  	<!--[if lt IE 9]>
