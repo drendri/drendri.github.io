@@ -9,7 +9,7 @@
   	<link rel="stylesheet" href="styles.css">
 	<script>
 	jQuery(document).ready(function($) { //noconflict wrapper
-	    var heights = $(".same-height").map(function() {
+	    var heights = $(".class_wrap").map(function() {
 		return $(this).height();
 	    }).get(),
 	    maxHeight = Math.max.apply(null, heights);
