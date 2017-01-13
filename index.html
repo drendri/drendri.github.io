@@ -8,13 +8,6 @@
   	<meta name="author" content="SitePoint">
   	<link rel="stylesheet" href="styles.css">
 	<script>
-	jQuery(document).ready(function($) { //noconflict wrapper
-	    var heights = $("same-height").map(function() {
-		return $(this).height();
-	    }).get(),
-	    maxHeight = Math.max.apply(null, heights);
-	    $(".same-height").height(maxHeight);
-	});
 	</script>
  	<!--[if lt IE 9]>
    		 <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
@@ -22,8 +15,9 @@
 </head>
 
 <body>
-	<script src="js/scripts.js"></script>
 	<div id="header"> Drendri's Legion Compendium</div>
+	<div id="totallyNotNav"><p>Home   |   Classes   |   Guides    |   Nighthold   |   About</p></div>
+	
 	<div id="Patch_Notes">
 		7.15 Patch Notes, TLDR:
 		<ul>
@@ -87,10 +81,11 @@
 			<i>**Undocumented Class Changes will be included on Class pages**</i>
 		</ul>
 	</div>
-	
-	<div id="Class_links">
-		Classes:<br><br>
-		<div class="same-height" id="class_wrap">
+<style>
+
+</style>
+	<div class="class_links">
+		<div class="class_wrap"  style="background: #C41F3B">
 			<div class="Class_icon">
 				<img src="http://wildspark.uk/dk.png">
 			</div>
@@ -103,7 +98,8 @@
 				</ul>
 			</div>	
 		</div>
-		<div class="same-height" id="class_wrap">
+		
+		<div class="class_wrap" style="background: #A330C9">
 			<div class="Class_icon">
 				<img src="http://wildspark.uk/dh.png">
 			</div>
@@ -116,7 +112,7 @@
 			</div>
 		</div>
 
-		<div class="same-height" id="class_wrap">
+		<div class="class_wrap" style="background: #FF7D0A">
 			<div class="Class_icon">
 				<img src="http://wildspark.uk/druid.png">
 			</div>
@@ -131,7 +127,7 @@
 			</div>
 		</div>
 
-		<div class="same-height" id="class_wrap">
+		<div class="class_wrap" style="background: #ABD473">
 			<div class="Class_icon">
 				<img src="http://wildspark.uk/hunter.png">
 			</div>
@@ -145,7 +141,7 @@
 			</div>
 		</div>
 
-		<div class="same-height" id="class_wrap">
+		<div class="class_wrap" style="background: #69CCF0">
 			<div class="Class_icon">
 				<img src="http://wildspark.uk/mage.png">
 			</div>
@@ -159,7 +155,7 @@
 			</div>
 		</div>
 
-		<div class="same-height" id="class_wrap">
+		<div class="class_wrap" style="background: #00FF96">
 			<div class="Class_icon">
 				<img src="http://wildspark.uk/monk.png">
 			</div>
@@ -173,7 +169,7 @@
 			</div>
 		</div>
 
-		<div class="same-height" id="class_wrap">
+		<div class="class_wrap" style="background: #F58CBA">
 			<div class="Class_icon">
 				<img src="http://wildspark.uk/Pala.png">
 			</div>
@@ -187,7 +183,7 @@
 			</div>
 		</div>
 
-		<div class="same-height" id="class_wrap">
+		<div class="class_wrap" style="background: #FFFFFF;">
 			<div class="Class_icon">
 				<img src="http://wildspark.uk/priest.png">
 			</div>
@@ -201,7 +197,7 @@
 			</div>
 		</div>
 
-		<div class="same-height" id="class_wrap">
+		<div class="class_wrap" style="background: #FFF569">
 			<div class="Class_icon">
 				<img src="http://wildspark.uk/rogue.png">
 			</div>
@@ -215,7 +211,7 @@
 			</div>
 		</div>
 
-		<div class="same-height" id="class_wrap">
+		<div class="class_wrap" style="background: #0070DE">
 			<div class="Class_icon">
 				<img src="http://wildspark.uk/shaman.png">
 			</div>
@@ -228,7 +224,7 @@
 				</ul>
 			</div>
 		</div>
-		<div class="same-height" id="class_wrap">
+		<div class="class_wrap" style="background: #9482C9">
 			<div class="Class_icon">
 				<img src="http://wildspark.uk/warlock.png">
 			</div>
@@ -241,7 +237,7 @@
 				</ul>
 			</div>
 		</div>
-		<div class="same-height" id="class_wrap">
+		<div class="class_wrap" style="background: #C79C6E">
 			<div class="Class_icon">
 				<img src="http://wildspark.uk/warrior.png">
 			</div>

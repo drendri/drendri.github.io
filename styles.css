@@ -1,20 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
 body {
-	width: 100%;
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
 }
 #header {
 	width: 100%;
-	text-align: middle;
+	text-align: center;
+	font-size: 2em;
+	padding: 0 0 4px;
+}
+#totallyNotNav{
+	width: 100%;
+	border-top: solid black 1px;
+	border-bottom: solid black 1px;
+	text-align: center;
+	padding: 0px;
+	margin: 0px;
+	vertical-align: text-top;
+	
 }
 #Patch_Notes{
 	float:left;
 	width: 33%;
-	/*min-width: 720px;*/
-	/*#max-width: 33%;*/
+	padding: 7px 15px 5px 10px;
+	margin: 0 10px 0 0;
+	border: solid black 1px;
 }
 .class_links{
 	display: flex;
 	flex-direction: row;
 	flex-wrap:wrap;
+	max-width: 678px;		/*3 boxes at 200w, 5px padding (on six sides), 7px margin and 1px border. (200*3)+(7*6)+(1*6)+(5*6) = 600 + 42 + 6 + 30 = 678 */
+	min-width: 220px;
+	background: #060B1C
 }
 
 .class_wrap{
@@ -23,8 +41,9 @@ body {
 	width: 200px;
 	min-width: 150px;
 	text-align: center;
-	margin:10px;
-	padding: 0 5px 0 5px;    
+	margin:7px;
+	padding: 0 5px 0 5px; 
+	background: white; /* if for whatever reason the BG color doesn't load it should go to white */
 }
 .class_specs{
 	padding-top: 5px;
@@ -34,11 +53,8 @@ body {
 	text-align: left;
 }
 .class_icon img{
-	width: 85px;
+	width: 95px;
 }
 #Links {
 	float:left;
-	width: 22%;
-	/*#min-width: 720px;*/
-	/*#max-width:22%;*/
 }
