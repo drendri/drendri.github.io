@@ -19,8 +19,8 @@ body {
 }
 .Class_wrap {
 	float:left;
-	width: 200px;
-	height: 175px;
+	width: 33%;
+	height: 100px;
 	text-align:center;
 	border: solid #000000 1px;
 }
