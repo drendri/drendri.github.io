@@ -11,26 +11,30 @@ body {
 	/*min-width: 720px;*/
 	/*#max-width: 33%;*/
 }
-#Class_links{
+.class_links{
+	display: flex;
+	flex-direction: row;
+	flex-wrap:wrap;
+}
+
+.class_wrap{
 	float:left;
-	width: 45%;
-	/*#min-width: 720px;*/
-	/*#max-width: 45%;*/
+	border: solid black 1px;
+	width: 200px;
+	min-width: 150px;
+	text-align: center;
+	margin:10px;
+	padding: 0 5px 0 5px;    
 }
-.Class_wrap {
-	float:left;
-	width: 275px;
-	text-align:center;
-	border: solid #000000 1px;
+.class_specs{
+	padding-top: 5px;
 }
-.Class_icon img {
-	padding: 0 30px 0 30px;
+.class_specs ul {
+	list-style: none;
+	text-align: left;
 }
-.Class_spec {
-	float:left;
-}
-.Class_spec ul li {
-	list-style:none;
+.class_icon img{
+	width: 85px;
 }
 #Links {
 	float:left;
