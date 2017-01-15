@@ -2,14 +2,15 @@
 body {
 	margin: 0;
 	font-family: 'Roboto', sans-serif;
-	background: white;
+	background: #3C4859;
 }
 #header {
 	width: 100%;
 	text-align: center;
 	font-size: 2em;
 	padding: 0 0 4px;
-	background: white;
+	background: #040F0F;
+	color:#2589BD;
 }
 #Nav{
 	width: 100%;
@@ -20,30 +21,42 @@ body {
 	padding: -10px;
 	margin: 0px;
 	vertical-align: text-top;
-	background: white;
+	background:#040F0F;
+	color:#2589BD;
 	border-collapse: collapse;
 	
 }
 .wrapper{
 	width: 60%;
-	min-width: 940px;
+	min-width: 720px;
 	float:left;
 	display: inline-flex;
 	flex-direction: column;
+	color: white;
 }
 #Patch_Notes{
 	flex: 1 1 940px;
 	padding: 7px 15px 5px 10px;
 	margin: 0 0 0 0;
-	border: solid black 1px;
-	background: white;
+	background: #3C4859;
 	border-collapse: collapse;
 }
 #Links {
 	padding: 20px;
-	background: white;
-	border: solid black 1px;
+	background: #3C4859;
+	border-bottom: solid black 1px;
 	border-collapse: collapse;
+}
+@media screen and (max-width: 955px) {
+	.wrapper{
+		width:100%;
+	}
+	#Patch_notes{
+		max-width:100%;
+	}
+	#Links{
+		max-width:100%;
+	}
 }
 .class_links{
 	display: flex;
