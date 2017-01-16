@@ -12,7 +12,7 @@ body {
 	background: #040F0F;
 	color:#2589BD;
 }
-nav {
+.nav {
 	width: 100%;
 	background: #333333;
 	text-align: center;
@@ -21,7 +21,7 @@ nav {
 	color:white;
 }
 
-nav li {
+.nav li {
 	display: block;
 	position: relative;
 	float: left;
@@ -31,24 +31,24 @@ nav li {
 	border-right: solid black 1px;
 	border: border-collapse;
 }
-nav li a {
+.nav li a {
 	color:white;
 	text-decoration: none;
 	padding: 2px;
 }
-nav li:hover > ul {
+.nav li:hover > ul {
 	display:block;
 	position:absolute;
 }
-nav ul{
+.nav ul{
 	display: none;
 }
-nav ul{
+.nav ul{
 	list-style: none;
 	margin: 0;
 	padding: 0px;
 }
-nav ul ul ul{
+.nav ul ul ul{
 	left: 100%;
 	top: 0;
 
